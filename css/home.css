@@ -52,3 +52,22 @@ body {
 .signin-text {
     font-weight: 600;
 }
+
+ /* SECTION 1 */
+
+/* Add some space to the image section */
+.image-section {
+    height: 80vh; /* Make the section take the full viewport height */
+    background-image: url('../images/Main\ Banner\ and\ text.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Responsive styles for the image section */
+@media (max-width: 767px) {
+    .image-section {
+        /* Adjust the height for mobile devices (e.g., smartphones) */
+        height: 40vh;
+    }
+}
