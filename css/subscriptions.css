@@ -63,7 +63,6 @@ body {
     border-radius: 30px;
     padding: 20px;
     text-align: left; /* Align all content to the left */
-    margin-right: 0px;
 }
 
 .features {
@@ -109,4 +108,21 @@ body {
     .card {
         padding: 10px;
     }
+}
+
+
+/* HOVER */
+
+.card:hover {
+    color: white;
+    background-color: #5C3BDE;
+    height: 520px; /* Increasing card height on hover */
+}
+
+.card button:hover {
+    background-color: #FFBF1C; /* Changing button color to gold on hover */
+}
+
+.card:hover .price {
+    color: gold; /* Changing price color to gold on hover */
 }

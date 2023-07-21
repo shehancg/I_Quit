@@ -17,7 +17,8 @@
     <link rel="stylesheet" type="text/css" href="../css/subscriptions.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    
+    <script src="../js/script.js"></script>
 </head>
 
     <!-- NAVIGATION BAR -->
@@ -35,7 +36,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav ml-auto" >
                         <li class="nav-item">
-                            <a class="nav-link" href="#" >Home</a>
+                            <a class="nav-link" href="../html/home.html" >Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" >Create Plan</a>
@@ -52,12 +53,12 @@
             </div>
         </nav>
          
-        <div class="container mt-5">
-            <div class="row justify-content-center">
+        <div class="container-fluid mt-5">
+            <div class="d-flex flex-column flex-md-row align-items-center gap-2 justify-content-center w-auto">
 
                 <!-- CARD 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
+                <div class="">
+                    <div class="card" onmouseover="changeButtonColor(this, 'gold', 'black')" onmouseout="changeButtonColor(this, '#5C3BDE', 'white')">
                         <h2><span class="price">$49</span><span class="days"> / 30 Days</span></h2>
                         <h4 style="font-weight: bolder;">Starter</h4>
                         <p>Begin your journey with our 30-day subscription.</p>
@@ -66,16 +67,15 @@
                             <br>
                             <li><i class="fa-solid fa-circle" style="color: #ffbf1c;"></i> Expert Tips</li> 
                             <br>
-                            <li><i class="fa-solid fa-circle" style="color: #ffbf1c;"></i> Motivation to support you in breaking 
-                                free</li>
+                            <li><i class="fa-solid fa-circle" style="color: #ffbf1c;"></i> Motivation to support you in breaking free</li>
                         </ul>
                         <button class="btn btn-primary btn-block">Choose Plan</button>
                     </div>
                 </div>
                 
                 <!-- CARD 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
+                <div class="">
+                    <div class="card" onmouseover="changeButtonColor(this, 'gold', 'black')" onmouseout="changeButtonColor(this, '#5C3BDE', 'white')">
                         <h2><span class="price">$109</span><span class="days"> / 60 Days</span></h2>
                         <h4 style="font-weight: bolder;">Growth</h4>
                         <p>Double your commitment and accelerate 
@@ -93,8 +93,8 @@
                 </div>
                 
                 <!-- CARD 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
+                <div class="">
+                    <div class="card" onmouseover="changeButtonColor(this, 'gold', 'black')" onmouseout="changeButtonColor(this, '#5C3BDE', 'white')">
                         <h2><span class="price">$159</span><span class="days"> / 90 Days</span></h2>
                         <h4 style="font-weight: bolder;">Professional</h4>
                         <p>Transform your life with our comprehensive 90-day plan</p>
@@ -110,8 +110,8 @@
                 </div>
 
                 <!-- CARD 4 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
+                <div class="">
+                    <div class="card" onmouseover="changeButtonColor(this, 'gold', 'black')" onmouseout="changeButtonColor(this, '#5C3BDE', 'white')">
                         <h2><span class="price">$300</span><span class="days"> / 1 year</span></h2>
                         <h4 style="font-weight: bolder;">Professional Pro</h4>
                         <p>Double your commitment and accelerate your future path.</p>
@@ -128,17 +128,6 @@
 
             </div>
         </div>
-        <!-- <style>
-            @import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
-            .row {
-              display: flex;
-              flex-wrap: wrap;
-            }
-            
-            .card {
-              margin-bottom: 0;
-            }
-            </style> -->
         
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
