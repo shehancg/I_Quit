@@ -59,7 +59,7 @@ body {
 .card {
     width: 310px; /* Set the width to 347px */
     height: 460px; /* Set the height to 530px */
-    border: 1px solid #ccc;
+    border: 1px solid #F1F1F1;
     border-radius: 30px;
     padding: 20px;
     text-align: left; /* Align all content to the left */
@@ -126,3 +126,5 @@ body {
 .card:hover .price {
     color: gold; /* Changing price color to gold on hover */
 }
+
+/* TOGGLE SWITCH */
