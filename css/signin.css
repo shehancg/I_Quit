@@ -1,0 +1,104 @@
+/* navbarstyles.css */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F1F1;
+}
+
+.navbar {
+    border-radius: 0;
+    /* Add more padding to the left and right */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Apply styles to "I" and "Quit" separately */
+.logo-bold {
+    font-weight: bold;
+}
+
+.logo-bold:first-child {
+    color: #FFBF1C;
+}
+
+.logo-bold:last-child {
+    color: #5C3BDE;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #5C3BDE !important;
+    font-weight: 400 !important;
+}
+
+.btn-purple {
+    background-color: #5C3BDE;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.profile-icon {
+    margin-right: 5px;
+}
+
+.signin-text {
+    font-weight: 600;
+}
+
+/* form styles */
+
+.text-gold {
+    color: #FFBF1C;
+    font-size: xx-large;
+
+}
+
+.signin-form {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form label {
+    font-weight: bold;
+}
+
+.btn-submit  {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    width: 100%;
+}
+
+.btn-purple:hover {
+    background-color: #553bd1;
+}
+
+/* Increase space between form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+/* Change color of the checkbox */
+.form-check-input[type="checkbox"] {
+    border-color: #FFBF1C;
+}
+
+.form-check-input[type="checkbox"]:checked {
+    background-color: #FFBF1C;
+    border-color: #FFBF1C;
+}
