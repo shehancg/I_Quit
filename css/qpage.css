@@ -1,0 +1,55 @@
+/* navbarstyles.css */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F1F1;
+}
+
+.navbar {
+    border-radius: 0;
+    /* Add more padding to the left and right */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Apply styles to "I" and "Quit" separately */
+.logo-bold {
+    font-weight: bold;
+}
+
+.logo-bold:first-child {
+    color: #FFBF1C;
+}
+
+.logo-bold:last-child {
+    color: #5C3BDE;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: #5C3BDE !important;
+    font-weight: 400 !important;
+}
+
+.btn-purple {
+    background-color: #5C3BDE;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.profile-icon {
+    margin-right: 5px;
+}
+
+.signin-text {
+    font-weight: 600;
+}
