@@ -85,3 +85,15 @@ body {
     background-repeat: no-repeat;
     
 }
+
+ /* SECTION 3 */
+
+/* Add some space to the image section */
+.image-section-about {
+    height: 80vh; /* Make the section take the full viewport height */
+    background-image: url('../images/AboutUs.png');
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
