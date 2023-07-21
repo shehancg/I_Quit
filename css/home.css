@@ -79,6 +79,7 @@ body {
 /* Add some space to the image section */
 .image-section-mid {
     height: 80vh; /* Make the section take the full viewport height */
+    background-color: #F1F1F1;
     background-image: url('../images/circle.png');
     background-size:30%;
     background-position:87%;
@@ -92,8 +93,30 @@ body {
 .image-section-about {
     height: 80vh; /* Make the section take the full viewport height */
     background-image: url('../images/AboutUs.png');
-    background-size:100%;
-    background-position:center;
+    background-size:75%;
+    background-position:left;
     background-repeat: no-repeat;
     
+}
+
+ /* SECTION 4 */
+
+.image-section-footer {
+    height: 60vh; /* Make the section take the full viewport height */
+    background-color: #1F1F1F;
+    
+}
+
+/* Apply styles to "I" and "Quit" separately */
+.logo-bold-end {
+    font-weight:bolder;
+    font-size:200%;
+}
+
+.logo-bold-end:first-child {
+    color: #FFBF1C;
+}
+
+.logo-bold-end:last-child {
+    color: #5C3BDE;
 }
