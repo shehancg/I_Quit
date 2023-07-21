@@ -53,6 +53,8 @@ body {
     font-weight: 600;
 }
 
+
+
  /* SECTION 1 */
 
 /* Add some space to the image section */
@@ -66,8 +68,20 @@ body {
 
 /* Responsive styles for the image section */
 @media (max-width: 767px) {
-    .image-section {
-        /* Adjust the height for mobile devices (e.g., smartphones) */
+    .image-section,.image-section-mid {
+        /* Adjust the height for mobile devices  */
         height: 40vh;
     }
+}
+
+ /* SECTION 2 */
+
+/* Add some space to the image section */
+.image-section-mid {
+    height: 80vh; /* Make the section take the full viewport height */
+    background-image: url('../images/circle.png');
+    background-size:30%;
+    background-position:87%;
+    background-repeat: no-repeat;
+    
 }
