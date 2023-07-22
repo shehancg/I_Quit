@@ -68,15 +68,16 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 text-start" style="font-weight: 600;font-size: large;">
                     <p>Whether your time-saving automation needs are large or small,
-                        we’re here to help your scale</p>
+                        we're here to help your scale</p>
                 </div>
-                <div class="col-md-6">
-                    <!-- Add any additional content or text here if needed -->
+                <div class="col-md-6 d-flex justify-content-end">
+                    <!-- TOGGLE SWITCH -->
+                    <span class="switch">
+                        <input type="checkbox" id="switcher">
+                        <label for="switcher"></label>
+                    </span>
                 </div>
             </div>
-
-            <!-- TOGGLE SWITCH -->
-            
 
         </div>
 
@@ -123,7 +124,12 @@
                 <!-- CARD 3 -->
                 <div class="">
                     <div class="card" onmouseover="changeButtonColor(this, 'gold', 'black')" onmouseout="changeButtonColor(this, '#5C3BDE', 'white')">
-                        <h2><span class="price">$159</span><span class="days"> / 90 Days</span></h2>
+                        
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <h2 style="display: inline-block;"><span class="price">$159</span><span class="days"> / 90 Days</span></h2>
+                            <span style="background-color: #ffbf1c; font-size: small; font-weight: 600; color: black; border-radius: 15px; padding: 5px 10px;">Most Popular</span>
+                        </div>
+                        
                         <h4 style="font-weight: bolder;">Professional</h4>
                         <p>Transform your life with our comprehensive 90-day plan</p>
                         <ul class="features">

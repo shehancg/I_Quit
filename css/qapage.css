@@ -67,7 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 50px; /* Add margin between the navbar and components */
+    margin-top: 30px; /* Add margin between the navbar and components */
 }
 
 .age-container,
@@ -106,7 +106,7 @@ body {
 .radio-group label {
     cursor: pointer;
     padding: 4px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #5C3BDE;
     border-radius: 20px;
     background-color: #f0f0f0;
     transition: background-color 0.3s ease;
